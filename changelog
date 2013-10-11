@@ -1,26 +1,21 @@
 turnkey-tendenci-13.0 (1) turnkey; urgency=low
 
-  * Initial public release of TurnKey Tendenci.
-  
+  * Initial public release of TurnKey Tendenci, based on TKLDev submitted
+    by Jenny Qian.
+
   * SSL support out of the box.
   
-  * Installed a tendenci site to /var/www/tendenci:
+  * Latest upstream version of Tendenci installed via PIP:
   
-  	- Set up with Nginx, Gunicorn, Supervisor and Postgresql.
-  	- Use Postfix for email support.
-  	- Use Whoosh for index search.
+  	- Configured with Nginx, Gunicorn, Supervisor and PostgreSQL.
+    - Configured to use Whoosh for index search.
   
   * Regenerates all secrets during installation / firstboot (security).
-  
-  * Major component versions:
-  
-	- tendenci		5.1.116
-	- postgresql		9.1
-	- nginx			1.2.1
-	- python 			2.7
-	- django			1.4
-  
-  * Note: We only describe changes specific to this appliance here. Please refer to
-  	turnkey-core's changelog for changes common to all appliances.
 
- -- Jenny Qian <jqian@schipul.com> Mon, 12 Aug 2013 15:47:51 -0500
+  * Includes postfix MTA (bound to localhost) for sending of email (e.g.
+    password recovery). Also includes webmin postfix module for convenience
+
+  * Note: Please refer to turnkey-core's changelog for changes common to all
+    appliances. Here we only describe changes specific to this appliance.
+
+ -- Alon Swartz <alon@turnkeylinux.org>  Fri, 11 Oct 2013 11:49:44 +0300

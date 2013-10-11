@@ -17,6 +17,7 @@ and on top of that:
     - Configured to use Whoosh for index search.
    
 - SSL support out of the box.
+
 - Postfix MTA (bound to localhost) to allow sending of email (e.g.,
   password recovery).
 
