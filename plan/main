@@ -15,5 +15,3 @@ libfreetype6
 libfreetype6-dev
 supervisor
 nginx
-postfix
-webmin-postfix
