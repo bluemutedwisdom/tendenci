@@ -29,5 +29,5 @@ Credentials *(passwords set at first boot)*
 - Tendenci: username **admin**
 
 .. _Tendenci: https://github.com/tendenci/tendenci
-.. _TurnKey Core: http://www.turnkeylinux.org/core
+.. _TurnKey Core: https://www.turnkeylinux.org/core
 
